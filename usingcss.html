@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h2 {
+            color: blue;
+            text-decoration: underline wavy red;
+        }
+
+        .text {
+            color: coral;
+            border: 1px solid crimson;
+        }
+
+        #mytext {
+            background-color: blue;
+            color: yellow;
+            font-weight: bold;
+        }
+
+        h3 {
+            color: blueviolet;
+            background-color: gray;
+        }
+
+        .myclass {
+            color: brown;
+            background-color: yellow;
+        }
+
+        #myid {
+            color: yellow;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color: rgb(244, 7, 7); font-size: 60px;">Inline CSS is used to style individual tag only</h1>
+    <h2>Internal CSS is used to style multiple tags at once</h2>
+    <h2 class="text">Name Selector is used to select elements by their tag name</h2>
+
+    <P class="text">Class selector is used to select elements by their class name</P>
+    <p id="mytext">ID Selector is used to select elements by their ID name</p>
+
+    <h3 class="myclass" id="myid">Selector priority</h3>
+
+    <button class="btn">submit</button>
+
+</body>
+
+</html>
